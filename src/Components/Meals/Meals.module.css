@@ -1,0 +1,9 @@
+.Meals{
+    background-color:brown;
+}
+
+.MealsContainer {
+    display: flex;
+    align-items: center; /* Optional: Align items vertically if needed */
+  }
+  

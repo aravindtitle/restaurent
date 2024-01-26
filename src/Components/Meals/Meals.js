@@ -1,13 +1,13 @@
-import React from "react";
-import classes from "./Meals.module.css";
-import Cart from "../Cart/Cart";
+import { Fragment } from "react";
+import AvailableMeals from "./AvailableMeals";
+import MealsSummery from "./MealsSummery";
 
 const Meals = () => {
   return (
-    <div className={classes.MealsContainer}>
-      <h1 className={classes.Meals}>ReactMeals</h1>
-      <Cart />
-    </div>
+    <Fragment>
+      <MealsSummery />
+      <AvailableMeals />
+    </Fragment>
   );
 };
 
